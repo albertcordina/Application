@@ -24,8 +24,7 @@ public class CSVToDatabase {
 	// Specify the path to the CSV file and the target MySQL table
 	private static final String tableName = "application2";
 
-	
-	
+		
 	/*
 	 *  Method saves CSV data to a SQL/PostgreSQL database table, 
 	 *   or creates and saves data in a new table if NOT EXIST.
