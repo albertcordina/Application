@@ -25,7 +25,7 @@ public class Registered extends Info {
 			System.out.println("\nPlease, enter your password.");
 			if (enterPasswordToAccess(password)) {Registered.manageAccount();}
 			
-			// if run out of attempts send the Applicant back to the main Menue
+			// if run out of attempts send the Applicant back to the main Menu
 			else {Main.Menu();}
 		} else { // If the entered contact phone number is not in the list, send the Applicant to the main Menu
 			System.out.println("It looks like you are not registered yet. You are back to the main Menu.\n");

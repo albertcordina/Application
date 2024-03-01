@@ -1,3 +1,5 @@
 phone_number,name,surname,age,occupation,overallincome,password,statusofapplication
-2222222,Lulu,Smith,53,Unemployed,139,abcABC!"£12345,null
-1111111,Albert,Cordina,50,Unemployed (needs info from the Unemployment Service.),64,abcABC!"£12345,null
+1111111,Anna,Cordina,50,Unemployed (needs info from the Unemployment Service.),64,abcABC!"£12345,null
+2222222,Alla,Cordina,45,Employed,258,abcABC!"£12345,null
+3333333,John,Travolta,53,Retired,49,abcABC!"£12345,null
+4444444,Freddy,Bold,80,Retired,55.20,abcABC!"£12345,null

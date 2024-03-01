@@ -82,7 +82,7 @@ public class JDB_Exporter {
                 try (PreparedStatement preparedStatement = connection.prepareStatement(query);
                      ResultSet resultSet = preparedStatement.executeQuery()) {
 
-                    // Write the data to a CSV file
+                    // Write the data to a CSV file (implement the helper method below)
                     writeToFile(resultSet);
                     System.out.println("Data exported successfully to " + outputFile);
                 }

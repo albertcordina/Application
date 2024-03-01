@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 public class JDBC extends Info {
 
-	// Establish JDBC connection:
+  //  Establish JDBC connection:
   //  private static final String url = "jdbc:mysql://localhost:3306/application"; // for mysql (port:3306).
   //  private static final String username = "albertcordina";
 

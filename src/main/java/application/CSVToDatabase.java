@@ -14,15 +14,15 @@ public class CSVToDatabase {
 	// private static final String url = "jdbc:mysql://localhost:3306/application";
 	// // for mysql (port:3306).
 	// private static final String username = "albertcordina";
-	 private static final String csvFilePath = "The list of the Applicants mySQL.csv";
+	// private static final String csvFilePath = "The list of the Applicants mySQL.csv";
 
 	private static final String url = "jdbc:postgresql://localhost:5432/application"; // for postgresql (port:5432).
 	private static final String username = "postgres";
-	//private static final String csvFilePath = "The list of the Applicants PostgreSQL.csv";
+	private static final String csvFilePath = "The list of the Applicants PostgreSQL.csv";
 
 	private static final String passwordJDBC = "abcABC123";
 	// Specify the path to the CSV file and the target MySQL table
-	private static final String tableName = "application2";
+	private static final String tableName = "applicationFromFile";
 
 		
 	/*
@@ -42,7 +42,7 @@ public class CSVToDatabase {
 				headers = line.split(",");
 			}
 
-			// Create the PostgreSQL table if it doesn't exist
+			// Create the PostgreSQL table if it doesn't exist (implement the helper method below)
 			createTableIfNotExists(connection, headers);
 
 			// Prepare the SQL INSERT statement

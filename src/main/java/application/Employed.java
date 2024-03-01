@@ -13,7 +13,7 @@ public class Employed extends Info {
 		 * Check an extra income and determine if the Applicant has a sufficient overallIncome.
 		 *   For those who have the sufficient income: education, and send back to the main menu.
 		 *   For those who don't have the sufficient income: send to the registration 
-		 *      (see the bottom of the 'checkExtraAndOverallIncome' mehtod in the class 'Methods')
+		 *      (see the bottom of the 'checkExtraAndOverallIncome' method in the class 'Methods')
 		 */
 		checkExtraAndOverallIncome();
 
