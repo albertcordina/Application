@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-
+ 
 		// The Welcome message
 		System.out.println("Dear applicant, tank you contacting us,\nwe are happy to help you with your application!");
 		Menu(); // Call the method 'Menu' below
