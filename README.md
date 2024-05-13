@@ -140,7 +140,7 @@ Class Unemployed:
 
  Ask the applicant if they have already applied for the unemplyement benefits.
 
-  If the customer did not apply for the penefits yet:
+  If the customer did not apply for the benefits yet:
 
      1. reffer the applicant to the unemployment department; 
      2. request the applicant's contact phone number (as a 'username'). If the phone number is already stored, inform the applicant about it and send the applicant back to the main Menu. If the phone number is not in the list of the collector, store the phone number;                                                                                            
