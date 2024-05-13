@@ -105,9 +105,9 @@ If the applicant is above the age of retirement 67, we ask the applicant about i
 
     1. reffer the applicant to the pension department;
     2. request the applicant's contact phone number (as a 'username'). If the phone number is already stored, inform the applicant about it and send the applicant back to the main Menu. If the phone number is not in the list of the collector, store the phone number;                                                                                            
-     3. request the applicant to enter/create their own password for a future visit of their personal profile. Store the password in the collector with the all other values (i.e. name, surname, e.t.c.);                                                                                                
-     4. create a personal applicant's profile with a unique ID. Educate the applicant about the ID, and advise to track the status of the appication;                         
-     5. send the applicant back to the main Menu;
+    3. request the applicant to enter/create their own password for a future visit of their personal profile. Store the password in the collector with the all other values (i.e. name, surname, e.t.c.);                                                                                                
+    4. create a personal applicant's profile with a unique ID. Educate the applicant about the ID, and advise to track the status of the appication;                         
+    5. send the applicant back to the main Menu;
 
   if the applicant receives the retirment pention: treat the user as the "Retired" (i.e. call the Class Retired).
 
@@ -119,9 +119,9 @@ Class Student:
  If the total income exides the 2000 Euros, educate the applicant about the policy;
  if the total income is below the 2000 Euros:                                                                                          
     1. request the applicant's contact phone number (as a 'username'). If the phone number is already stored, inform the applicant about it and send the applicant back to the main Menu. If the phone number is not in the list of the collector, store the phone number;                                                                                            
-     2. request the applicant to enter/create their own password for a future visit of their personal profile. Store the password in the collector with the all other values (i.e. name, surname, e.t.c.);                                                                                                
-     3. create a personal applicant's profile with a unique ID. Educate the applicant about the ID, and advise to track the status of the appication;                         
-     4. send the applicant back to the main Menu;
+    2. request the applicant to enter/create their own password for a future visit of their personal profile. Store the password in the collector with the all other values (i.e. name, surname, e.t.c.);                                                                                                
+    3. create a personal applicant's profile with a unique ID. Educate the applicant about the ID, and advise to track the status of the appication;                         
+    4. send the applicant back to the main Menu;
 
 Class Employed:
  (subclass)
@@ -130,9 +130,10 @@ Class Employed:
  If the pention and a possible additional income exides the 2000 Euros, educate the user about the policy;
 if the salary with a possible additional income is below the 2000 Euros:                                                                                               
     1. request the applicant's contact phone number (as a 'username'). If the phone number is already stored, inform the applicant about it and send the applicant back to the main Menu. If the phone number is not in the list of the collector, store the phone number;                                                                                            
-     2. request the applicant to enter/create their own password for a future visit of their personal profile. Store the password in the collector with the all other values (i.e. name, surname, e.t.c.);                                                                                                
-     3. create a personal applicant's profile with a unique ID. Educate the applicant about the ID, and advise to track the status of the appication;                         
-     4. send the applicant back to the main Menu;
+   
+    2. request the applicant to enter/create their own password for a future visit of their personal profile. Store the password in the collector with the all other values (i.e. name, surname, e.t.c.);               
+    3. create a personal applicant's profile with a unique ID. Educate the applicant about the ID, and advise to track the status of the appication;                         
+    4. send the applicant back to the main Menu;
 
 Class Unemployed:
  (subclass)
